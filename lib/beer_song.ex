@@ -35,6 +35,5 @@ defmodule BeerSong do
   @spec lyrics(Range.t()) :: String.t()
   def lyrics(range) do
     # Your implementation here...
-    Enum.map(range, &verse(&1))
   end
 end
