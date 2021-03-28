@@ -6,8 +6,7 @@ defmodule BeerSong do
 
   def verse(number) when number in 3..99 do
     # Your implementation here...
-    "#{number} bottles of beer on the wall, #{number} bottles of beer.\nTake one down and pass it around,
-    #{number - 1} bottles of beer on the wall.\n"
+    "#{number} bottles of beer on the wall, #{number} bottles of beer.\nTake one down and pass it around, #{number - 1} bottles of beer on the wall.\n"
   end
 
   @spec verse(integer) :: String.t()
